@@ -1,0 +1,50 @@
+header {
+  background-color: #4e99b4;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #ffffff;
+}
+
+header nav {
+  background-color: #ebebeb;
+  color: #000000;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+aside {
+  float: right;
+  /*padding: 2rem 8rem 2rem 5rem;*/
+  max-width: 25%;
+}
+
+section {
+  max-width: 75%;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.intro h3 {
+  color: #4e99b4;
+  text-transform: none;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 70%;
+}
+
+footer {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
