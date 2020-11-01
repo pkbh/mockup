@@ -2,11 +2,21 @@ header {
   background-color: #4e99b4;
   font-family: "Helvetica", "Arial", sans-serif;
   color: #ffffff;
+  /*padding: 0 6rem 0 6rem;*/
 }
 
-header nav {
-  background-color: #ebebeb;
-  color: #000000;
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  font-size: .75rem;
+}
+
+ul li:nth-child(n+2):before {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  content: "/";
+  list-style-type: none;
+  display: inline-flex;
 }
 
 body {
@@ -17,14 +27,25 @@ aside {
   float: right;
   /*padding: 2rem 8rem 2rem 5rem;*/
   max-width: 25%;
+  padding-bottom: 5rem;
 }
 
 section {
   max-width: 75%;
+  padding-bottom: 5rem;
 }
 
 p {
   font-size: 1rem;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 300;
 }
 
 h3 {
@@ -46,5 +67,15 @@ img {
 
 footer {
   background-color: #3a3a3a;
+  color: #ffffff;
+  clear: left;
+  clear: right;
+}
+
+nav .footer {
+  list-style-type: none;
+  display: inline-flex;
+  font-size: .5rem;
+  font-weight: bolder;
   color: #ffffff;
 }
