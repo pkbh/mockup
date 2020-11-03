@@ -39,26 +39,23 @@ main {
 }
 
 section {
-  padding-right: 1rem;
+  padding: 0 1rem 0 0;
 }
 
 table {
-  padding-top: 1rem;
-  padding-bottom: 4rem;
+  padding: 1rem 0 4rem 0;
 }
 
 th {
+  color: #4e99b4;
   font-size: .75rem;
   font-weight: 600;
   text-align: left;
   text-transform: uppercase;
-  padding-right: 2rem;
-  padding-bottom: .5rem;
-  color: #4e99b4;
+  padding: 0 2rem .5rem 0;
 }
 
 td {
-
   font-size: 0.55rem;
   line-height: 2em;
   font-weight: 200;
@@ -77,10 +74,10 @@ td {
 }
 
 blockquote {
-  margin-left: 0;
   color: #4e99b4;
   font-weight: 200;
   line-height: 1.25rem;
+  margin: 0 0 0 0;
   padding: .5em 0 1em 0;
 }
 
@@ -105,7 +102,7 @@ aside a {
   font-size: 0.55em;
 }
 
-#article2 {
+.articles {
   padding: .75em 0 1rem 0;
 }
 
@@ -123,13 +120,9 @@ footer {
   font-family: "Helvetica", "Arial", sans-serif;
   color: #ffffff;
   background-color: #3a3a3a;
-  margin: 0 -1rem -1rem -1rem;
-
-  padding-top: 3rem;
-  padding-left: 35%;
-  padding-bottom: 2rem;
-  padding-right: 35%;
   text-align: center;
+  margin: 0 -1rem -1rem -1rem;
+  padding: 3rem 35% 2rem 35%;
 }
 
 footer a {
@@ -141,21 +134,16 @@ footer a {
 footer p {
   font-size: .65rem;
   font-weight: lighter;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 0 2rem 0 2rem;
 }
 
 .footer-logo {
   max-width: 55%;
-  padding-top: .75rem;
-  padding-bottom: 0.5rem;
+  padding: .5rem 0 .5rem 0;
 }
 
 .footer-nav {
   font-size: 0.5rem;
-}
-.footer-copyright {
-
 }
 
 p {
@@ -180,8 +168,8 @@ h2 {
   font-weight: 300;
   font-size: 1.05rem;
   line-height: 1.25rem;
-  padding-bottom: 1.5rem;
   max-width: 30%;
+  padding: 0 0 1.5rem 0;
 }
 
 h3 {
